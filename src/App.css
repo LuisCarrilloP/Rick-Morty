@@ -1,38 +1,191 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #05292E;
+}
+
+.App{
+  
+  color: antiquewhite;
+
+}
+
+.topImage{
+  width: 100%;
+  margin-top: .1rem;
+}
+
+.search{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  margin: .5rem 0;
+}
+
+.input{
+  width: 100%;
+  background-color: #074048;
+  color: #18b7cd;
   text-align: center;
+  height: 25px;
+  margin: .5rem 0;
+  border: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-btn{
+  border: 2px solid #074048;
+  background-color: #05292E;
+  color: antiquewhite;
+  font-weight: 900;
+  height: 40px;
+  width: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.title-card{
+  background-color: #062226;
+  position: relative;
+  width: 80%;
+  height: 80px;
+  margin-left: 10%;
+  top: 0;
+  margin-bottom: 2rem;
+}
+
+.title-card *{
+  display: flex;
+}
+
+.location-name{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: .7rem;
+  font-size: 22px;
+  margin-bottom: 1.2rem;
+}
+
+.type-list{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.type-list li{
+  display: inline-flex;
+  margin: 0 15px;
+  font-size: 15px;
+}
+
+@media screen and (max-width:600px){
+  .location-name{
+    top: .2rem;
+    font-size: 15px;
+    margin-bottom: .9rem;
+  }
+
+  .type-list li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px;
+    font-size: 12px;
+    margin-top: .5rem;
+    width: 100px;
+    height: 40px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.residents{
+  position: relative;
+  left: 12%;
+  width: fit-content;
+  margin-bottom: .5rem;
+}
+
+.residents-list{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+}
+
+.character-map{
+  width: 80%;
+  margin-left: 10%;
+}
+
+.characterCard{
+  width: 252px;
+  margin-bottom: 1rem;
+  background-color: #062226;
+  height: 380px;
+  margin: 0 10px 10px;
+}
+
+.characterCard:hover{
+  letter-spacing: .25em;
+  width: 260px;
+  height: 390px;
+  box-shadow: 0 0 35px #18b7cd;
+}
+
+.characterCard ul{
+  list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.characterCard img{
+  width: 250px;
+  margin-bottom: .5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.character-name{
+  margin-left: 5%;
+  margin-bottom: .8rem;
+  font-size: 20px;
 }
+
+.character-info{
+  margin-left: 5%;
+  margin-bottom: .5rem;  
+}
+
+@media screen and (max-width:600px) {
+  .characterCard{
+    width: 200px;
+    height: 300px;
+  }
+  .characterCard:hover{
+    letter-spacing: .25em;
+    width: 210px;
+    height: 310px;
+    box-shadow: 0 0 35px #18b7cd;
+  }
+
+  .characterCard li img{
+    width: 198px;
+  }
+
+  .character-name{
+    font-size: 15px;
+    margin-bottom: .5rem;
+  }
+
+  .characterCard ul li{
+    line-height: 12px;
+  }
+
+  .character-info{
+    font-size: 12px;
+  }
+
+}
+
+
+
