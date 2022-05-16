@@ -41,7 +41,7 @@ const RickAndMortyType = () => {
         <div className='Location'>
             {
                 isLoading ? (
-                    <h2>Cargando..</h2>
+                    <h2>Loading..</h2>
                 ) : (
                 <>
                     <img src={image} alt="" className='topImage'/>
