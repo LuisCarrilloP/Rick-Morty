@@ -161,6 +161,12 @@ body{
   margin-bottom: .5rem;  
 }
 
+.character-status{
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+}
+
 @media screen and (max-width:600px) {
   .characterCard{
     width: 200px;
