@@ -142,13 +142,13 @@ body{
 }
 
 .characterCard img{
-  width: 500px;
+  width: 100%;
   margin-bottom: .5rem;
 }
 
-.characterCard img:hover{
+/* .characterCard img:hover{
   width: 100%;
- }
+ } */
 
 .character-name{
   margin-left: 5%;
