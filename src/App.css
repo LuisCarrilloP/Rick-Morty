@@ -141,10 +141,10 @@ body{
   flex-direction: column;
 }
 
-/* .characterCard img{
+.characterCard img{
   width: 250px;
   margin-bottom: .5rem;
-} */
+}
 
 .characterCard img:hover{
   width: 100%;
