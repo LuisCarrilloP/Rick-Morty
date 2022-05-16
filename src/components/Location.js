@@ -54,7 +54,7 @@ const RickAndMortyType = () => {
                             onFocus={removeText}
                             className="input"
                         />
-                        <button onClick={searchType} className="search-btn">Buscar</button>
+                        <button onClick={searchType} className="search-btn">Search</button>
                         {/* <button onClick={changeId}>Random</button> */}
                     </div>
                     
