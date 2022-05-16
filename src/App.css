@@ -83,7 +83,7 @@ body{
 
 @media screen and (max-width:600px){
   .location-name{
-    top: .2rem;
+    top: .3rem;
     font-size: 15px;
     margin-bottom: .9rem;
   }
@@ -125,12 +125,13 @@ body{
   background-color: #062226;
   height: 380px;
   margin: 0 10px 10px;
+  border: 1px solid #18b7cd
 }
 
 .characterCard:hover{
-  letter-spacing: .25em;
+  /* letter-spacing: .25em;
   width: 260px;
-  height: 390px;
+  height: 390px; */
   box-shadow: 0 0 35px #18b7cd;
 }
 
@@ -140,10 +141,14 @@ body{
   flex-direction: column;
 }
 
-.characterCard img{
+/* .characterCard img{
   width: 250px;
   margin-bottom: .5rem;
-}
+} */
+
+.characterCard img:hover{
+  width: 100%;
+ }
 
 .character-name{
   margin-left: 5%;
@@ -161,20 +166,22 @@ body{
     width: 200px;
     height: 300px;
   }
-  .characterCard:hover{
+
+  /* .characterCard:hover{
     letter-spacing: .25em;
     width: 210px;
     height: 310px;
     box-shadow: 0 0 35px #18b7cd;
-  }
+  } */
 
   .characterCard li img{
-    width: 198px;
+    width: 199px;
   }
 
   .character-name{
     font-size: 15px;
     margin-bottom: .5rem;
+    margin-top: .3rem;
   }
 
   .characterCard ul li{
