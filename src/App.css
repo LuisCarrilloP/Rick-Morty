@@ -193,12 +193,74 @@ body{
   .characterCard ul li{
     line-height: 12px;
   }
-
+  
   .character-info{
     font-size: 12px;
   }
-
+  
 }
+
+
+                /* PAGINATION */
+.pagination-container{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination-container ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  list-style: none;
+  
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.pagination-container ul li{
+  font-size: 20px;
+  border: 2px solid #18b7cd;
+  padding: 8px 16px;
+  border-radius: 3px;
+}
+
+.pagination-container ul li:hover{
+  border: 1px solid #18b7cd;
+  box-shadow: 0 0 35px #18b7cd;
+  background-color: #074048;
+}
+
+@media screen and (max-width:600px) {
+  .pagination-container ul{
+    gap: 2px;
+    padding: 2px;
+  }
+   .pagination-container ul li{
+     font-size: 12px;
+     padding: 4px 8px;
+   }
+
+   .pagination-container ul li:hover{
+     box-shadow: 0 0 15px #18b7cd;
+   }
+}
+
+.pagination-container ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.pagination-container ul li a:hover{
+  text-decoration: none;
+}
+
+
+
+
 
 
 
